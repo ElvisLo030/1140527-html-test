@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 自定義樣式 */
+body {
+  font-family: 'Inter', 'Noto Sans TC', system-ui, -apple-system, sans-serif;
+}
+
+/* 文青風格配色 */
+:root {
+  --primary-color: #d97706;
+  --secondary-color: #f59e0b;
+  --accent-color: #92400e;
+  --text-primary: #1f2937;
+  --text-secondary: #6b7280;
+  --bg-primary: #fffbeb;
+  --bg-secondary: #fef3c7;
+}
