@@ -1,4 +1,5 @@
 # 文青文具小舖管理系統
+## 41211147 網頁程式設計作業
 
 一個使用 Vue 3 + TypeScript + Express.js + PostgreSQL 開發的現代化文具店管理系統。
 
@@ -65,9 +66,9 @@
 
 - Node.js 18+ 
 - PostgreSQL 12+
-- Docker & Docker Compose (可選)
+- Docker & Docker Compose 
 
-### 方法一：使用 Docker (推薦)
+### 使用 Docker 建立
 
 1. **克隆專案**
    ```bash
@@ -84,55 +85,7 @@
    - 前端：http://localhost:5173
    - 後端 API：http://localhost:3000
 
-### 方法二：本地開發
 
-1. **克隆專案**
-   ```bash
-   git clone <repository-url>
-   cd 1140527-html-test
-   ```
-
-2. **設定資料庫**
-   ```bash
-   # 建立 PostgreSQL 資料庫
-   createdb stationery_shop
-   
-   # 執行初始化腳本
-   psql -d stationery_shop -f database/init.sql
-   ```
-
-3. **後端設定**
-   ```bash
-   cd backend
-   
-   # 安裝依賴
-   npm install
-   
-   # 建立環境變數檔案
-   cp .env.example .env
-   
-   # 編輯 .env 設定資料庫連線
-   # DB_HOST=localhost
-   # DB_PORT=5432
-   # DB_NAME=stationery_shop
-   # DB_USER=your_username
-   # DB_PASSWORD=your_password
-   
-   # 啟動開發伺服器
-   npm run dev
-   ```
-
-4. **前端設定**
-   ```bash
-   # 回到專案根目錄
-   cd ..
-   
-   # 安裝依賴
-   npm install
-   
-   # 啟動開發伺服器
-   npm run dev
-   ```
 
 ## 📚 API 文件
 
@@ -209,28 +162,3 @@ DB_PASSWORD=your_password
 FRONTEND_URL=http://localhost:5173
 ```
 
-## 🤝 貢獻指南
-
-1. Fork 此專案
-2. 建立功能分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交變更 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 開啟 Pull Request
-
-## 📄 授權條款
-
-此專案採用 MIT 授權條款 - 詳見 [LICENSE](LICENSE) 檔案
-
-## 📞 聯絡資訊
-
-- 專案維護者：文青文具小舖開發團隊
-- 電子郵件：[your-email@example.com]
-- 專案連結：[https://github.com/your-username/1140527-html-test]
-
-## 🔗 相關連結
-
-- [Vue.js 官方文件](https://vuejs.org/)
-- [TypeScript 官方文件](https://www.typescriptlang.org/)
-- [Express.js 官方文件](https://expressjs.com/)
-- [PostgreSQL 官方文件](https://www.postgresql.org/)
-- [Tailwind CSS 官方文件](https://tailwindcss.com/)
